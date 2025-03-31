@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bus_go.YonginGoActivity">
+
+    <android.widget.Button
+        android:id="@+id/YonginGo1"
+        android:layout_width="341dp"
+        android:layout_height="158dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/mainbtn2"
+        android:text="07:10(용인시외버스터미널), \n 07:15(삼성디지털프라자앞), \n 7:30(강남대 삼거리 굿모닝외과 건물앞), \n 7:35(신갈시외버스정류장)"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/back_button17"
+        android:layout_width="301dp"
+        android:layout_height="62dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/mainbtn2"
+        android:text="뒤로가기"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/YonginGo1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

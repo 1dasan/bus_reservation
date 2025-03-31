@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/seat1"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="1번" />
+
+        <Button
+            android:id="@+id/seat2"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="2번" />
+
+        <Button
+            android:id="@+id/seat3"
+            android:layout_marginLeft="50dp"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="3번" />
+
+        <Button
+            android:id="@+id/seat4"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="4번" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/seat5"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="5번" />
+
+        <Button
+            android:id="@+id/seat6"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="6번" />
+
+        <Button
+            android:id="@+id/seat7"
+            android:layout_marginLeft="50dp"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="7번" />
+
+        <Button
+            android:id="@+id/seat8"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="8번" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/seat9"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="9번" />
+
+        <Button
+            android:id="@+id/seat10"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="10번" />
+
+        <Button
+            android:id="@+id/seat11"
+            android:layout_marginLeft="50dp"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="11번" />
+
+        <Button
+            android:id="@+id/seat12"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="12번" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/seat13"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="13번" />
+
+        <Button
+            android:id="@+id/seat14"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="14번" />
+
+        <Button
+            android:id="@+id/seat15"
+            android:layout_marginLeft="50dp"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="15번" />
+
+        <Button
+            android:id="@+id/seat16"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="16번" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/seat17"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="17번" />
+
+        <Button
+            android:id="@+id/seat18"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="18번" />
+
+        <Button
+            android:id="@+id/seat19"
+            android:layout_marginLeft="50dp"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="19번" />
+
+        <Button
+            android:id="@+id/seat20"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="20번" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/seat21"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="21번" />
+
+        <Button
+            android:id="@+id/seat22"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="22번" />
+
+        <Button
+            android:id="@+id/seat23"
+            android:layout_marginLeft="50dp"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="23번" />
+
+        <Button
+            android:id="@+id/seat24"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="24번" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/seat25"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="25번" />
+
+        <Button
+            android:id="@+id/seat26"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="26번" />
+
+        <Button
+            android:id="@+id/seat27"
+            android:layout_marginLeft="50dp"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="27번" />
+
+        <Button
+            android:id="@+id/seat28"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="28번" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/seat29"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="29번" />
+
+        <Button
+            android:id="@+id/seat30"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="30번" />
+
+        <Button
+            android:id="@+id/seat31"
+            android:layout_marginLeft="50dp"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:text="31번" />
+
+        <Button
+            android:id="@+id/seat32"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="32번" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/seat33"
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:text="33번" />
+
+        <Button
+            android:id="@+id/seat34"
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="34번" />
+
+        <Button
+            android:id="@+id/seat35"
+            android:layout_marginLeft="5dp"
+            android:layout_width="63dp"
+            android:layout_height="55dp"
+            android:textSize="13dp"
+            android:text="35번" />
+
+        <Button
+            android:id="@+id/seat36"
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="36번" />
+
+        <Button
+            android:id="@+id/seat37"
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:text="37번" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:text="뒤로가기"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

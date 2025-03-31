@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bus_go.SuwonGoActivity">
+
+    <android.widget.Button
+        android:id="@+id/Suwon_GO_1"
+        android:layout_width="301dp"
+        android:layout_height="164dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainbtn2"
+        android:text="7:30(법원사거리), \n 7:40(영통입구), \n 7:45(수원T/G입구), \n 8:30(동탄이마트)"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/Suwon_Go_2"
+        android:layout_width="301dp"
+        android:layout_height="154dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mainbtn2"
+        android:text="8:50(법원사거리),\n 9:00(영통입구), \n 9:05(수원T/G입구), \n 9:15(동탄이마트)"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Suwon_GO_1" />
+
+    <android.widget.Button
+        android:id="@+id/back_button16"
+        android:layout_width="301dp"
+        android:layout_height="62dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mainbtn2"
+        android:text="뒤로가기"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Suwon_Go_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

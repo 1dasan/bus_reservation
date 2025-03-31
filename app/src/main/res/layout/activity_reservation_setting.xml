@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reservation.ReservationSettingActivity">
+
+    <android.widget.Button
+        android:id="@+id/go_or_back_button"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/mainbtn2"
+        android:text="등교 / 하교"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/location_button"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/mainbtn2"
+        android:text="지역선택"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/go_or_back_button" />
+
+    <android.widget.Button
+        android:id="@+id/date_button"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/mainbtn2"
+        android:text="날짜"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location_button" />
+
+    <android.widget.Button
+        android:id="@+id/inquiry_button"
+        android:layout_width="145dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mainbtn2"
+        android:text="조회"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_button" />
+
+    <android.widget.Button
+        android:id="@+id/back_button2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mainbtn2"
+        android:text="뒤로가기"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

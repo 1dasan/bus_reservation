@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.BusSearchActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.widget.Button
+            android:id="@+id/Ad_go_or_back_button"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mainbtn2"
+            android:text="등교 / 하교"
+            android:textStyle="bold" />
+
+        <android.widget.Button
+            android:id="@+id/Ad_location_button"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mainbtn2"
+            android:text="지역선택"
+            android:textStyle="bold" />
+
+        <android.widget.Button
+            android:id="@+id/Ad_date_button"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mainbtn2"
+            android:text="날짜"
+            android:textStyle="bold" />
+
+        <android.widget.Button
+            android:id="@+id/Ad_inquiry_button"
+            android:layout_width="248dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mainbtn2"
+            android:text="조회"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <android.widget.Button
+            android:id="@+id/Ad_all_button"
+            android:layout_width="150dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mainbtn2"
+            android:text="일괄처리"
+            android:textStyle="bold" />
+
+        <android.widget.Button
+            android:id="@+id/back_button19"
+            android:layout_width="150dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/mainbtn2"
+            android:text="뒤로가기"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
